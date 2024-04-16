@@ -1,0 +1,26 @@
+main{
+    background-image: url(../images/matricefond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 400px;
+    }
+
+.contacttree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+
+}
+
+.mail,.linkedin,.number,a{
+    border-radius: 30px;
+    background-color: rgb(41, 44, 48);
+    box-shadow: 6px 6px 0px rgb(4, 46, 4);
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}

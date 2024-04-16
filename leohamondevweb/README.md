@@ -1,0 +1,1 @@
+Site en construction, nombreux problèmes d'alignements et de centrage sont à noter, manque de media queries pour les plus grands et petits écrans
