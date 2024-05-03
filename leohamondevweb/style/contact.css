@@ -1,26 +1,93 @@
 main{
-    background-image: url(../images/matricefond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding-bottom: 400px;
-    }
-
-.contacttree{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 400px;
-
+  padding-bottom: 400px;
 }
 
-.mail,.linkedin,.number,a{
+.contacttree {
+padding-top: 200px;
+padding-left: 600px;
+padding-right: 600px;
+}
+
+.mail {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
     border-radius: 30px;
     background-color: rgb(41, 44, 48);
-    box-shadow: 6px 6px 0px rgb(4, 46, 4);
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    padding: 5px;
+    box-shadow: 3px 3px 0px rgb(4, 46, 4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
 }
+
+.linkedin {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: rgb(41, 44, 48);
+    box-shadow: 3px 3px 0px rgb(4, 46, 4);
+    margin: 10px;
+}
+
+.number {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 10px;
+    border-radius: 30px;
+    background-color: rgb(41, 44, 48);
+    box-shadow: 3px 3px 0px rgb(4, 46, 4);
+    margin: 10px;
+}
+
+.addresse {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(41, 44, 48);
+    box-shadow: 3px 3px 0px rgb(4, 46, 4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.mail:hover, .linkedin:hover,.number:hover,.addresse:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 46, 4);
+    box-shadow: 6px 6px 0px rgb(41, 44, 48);
+}
+
+a:visited {
+    color: white;
+}
+
+.mail:active {
+    color: white;
+}
+
+@media screen and (max-width: 996px) {
+
+
+
+  *{
+    font-size: smaller;
+  }
+
+  .contacttree {
+    padding: 0;
+
+  }
+
+  main{
+    padding: 76.4px;
+    padding-bottom: 150px;
+  }
+
+    }
+
